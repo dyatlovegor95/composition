@@ -1,4 +1,4 @@
-// Функциональный подход
+// Функциональный подход через composition API
 
 function createProgrammer(name) {
   const programmer = {name}

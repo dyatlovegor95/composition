@@ -21,9 +21,13 @@ class Backend extends Programmer {
   }
 }
 
+// Дублирование функциональности
 class Fullstack extends Programmer {
   node() {
     console.log(`${this.name} is coding... Node`)
+  }
+  angular() {
+    console.log(`${this.name} is coding... Angular`)
   }
 }
 
